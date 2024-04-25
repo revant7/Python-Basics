@@ -1,0 +1,8 @@
+f = open("example.txt","w")
+print(f.readable())
+print(f.mode)
+print(f.name)
+print(f.closed)
+f.close()
+print(f.closed)
+print(f)
